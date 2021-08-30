@@ -11,6 +11,24 @@ $('#num-generator').on('click', () => {
 
 });
 
+function add() {
+    return $(this).val() + $(this).val;
+
+}
+
+$('#add').on('click', (e) => {
+    let result;
+    let value = $('span').val();
+    let op = $(e.currentTarget).html(value);
+        if(op == "+") {
+            result = value + value
+        }
+    $('#value').html(result)
+});
+
+$('#subtract').on('click', () => {
+    alert('subtract me!')
+});
 
 
 

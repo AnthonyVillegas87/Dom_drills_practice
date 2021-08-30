@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="yourCSS.css">
 </head>
 <body>
+<div class="jumbotron text-center">
+    <div id="main">
+        <h1>Choices</h1>
+        <h3 id="choices"></h3>
+        <br>
+        <div>
+            <button type="button" class="btn btn-primary" id="answer">Answer</button>
+        </div>
+        <br>
+        <div id="value">Value: </div>
+
+
+
+    </div>
+</div>
 <hr>
 <div class="card w-50 text-center  mx-auto">
     <div class="card-body">
@@ -20,9 +35,9 @@
 </div>
 
 <br>
-<div class="btn-group" role="group">
-    <button type="button" class="btn btn-primary me-2">+</button>
-    <button type="button" class="btn btn-primary">_</button>
+<div class="btn-group mx-auto" role="group">
+    <button id="add" type="button" class="btn btn-primary me-2" value="add">+</button>
+    <button id="subtract" type="button" class="btn btn-primary" value="subtract">_</button>
 </div>
 
 <br>
